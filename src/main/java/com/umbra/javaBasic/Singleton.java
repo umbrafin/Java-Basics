@@ -11,7 +11,6 @@ public class Singleton {
     private String output = "testSingleton";
 
 
-
     private Singleton() {
 
     }
@@ -20,6 +19,8 @@ public class Singleton {
         if (s == null) {
             s = new Singleton();
         }
+
+
         return s;
     }
 
